@@ -1,10 +1,13 @@
-Consider the following scenario where we have 2 entities in our system.
+Django Python Machine Test
+
+
+Consider the following scenario where we have 3 entities in our system.
 
 1. User
 
 2. Client
 
-
+3. Project
 
  
 
@@ -21,3 +24,19 @@ You have to perform the following tasks :
 2. Fetch clients info
 
 3. Edit/Delete client info
+
+4. Add new projects for a client and assign users to those projects.
+
+5. Retrieve assigned projects to logged-in users.
+
+ 
+
+Things to consider :
+
+1. The system has many users.
+
+2. The system has many clients.
+
+3. A client can have many projects
+
+4. A single project can be assigned to many users.
