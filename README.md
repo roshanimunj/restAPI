@@ -7,7 +7,7 @@ Consider the following scenario where we have 3 entities in our system.
 
 2. Client
 
-3. Project
+
 
  
 
@@ -37,6 +37,5 @@ Things to consider :
 
 2. The system has many clients.
 
-3. A client can have many projects
 
-4. A single project can be assigned to many users.
+3. A single project can be assigned to many users.
